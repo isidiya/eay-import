@@ -1,0 +1,46 @@
+[
+    {
+        "name": "activecampaign/api-php",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ActiveCampaign/activecampaign-api-php.git",
+            "reference": "2bf5b72ba8668de8dcb27e194948028276e748c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ActiveCampaign/activecampaign-api-php/zipball/2bf5b72ba8668de8dcb27e194948028276e748c5",
+            "reference": "2bf5b72ba8668de8dcb27e194948028276e748c5",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2017-04-26T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "includes/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Official PHP wrapper for the ActiveCampaign API.",
+        "homepage": "https://github.com/ActiveCampaign/activecampaign-api-php",
+        "keywords": [
+            "Forms",
+            "activecampaign",
+            "automation",
+            "email-marketing",
+            "emails",
+            "marketing-automation",
+            "newsletter",
+            "subscribe"
+        ]
+    }
+]

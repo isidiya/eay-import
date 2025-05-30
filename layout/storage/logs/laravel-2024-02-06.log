@@ -1,0 +1,23 @@
+[2024-02-06 10:59:29] local.ERROR: Class 'League\Flysystem\AwsS3v3\AwsS3Adapter' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'League\\Flysystem\\AwsS3v3\\AwsS3Adapter' not found at /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php:208)
+[stacktrace]
+#0 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php(125): Illuminate\\Filesystem\\FilesystemManager->createS3Driver(Array)
+#1 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php(103): Illuminate\\Filesystem\\FilesystemManager->resolve('s3')
+#2 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php(80): Illuminate\\Filesystem\\FilesystemManager->get('s3')
+#3 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(223): Illuminate\\Filesystem\\FilesystemManager->disk('s3')
+#4 /var/www/html/layout_migration/albayan_migration/Themes/bayan/theme_commands/insertApiArticles.php(47): Illuminate\\Support\\Facades\\Facade::__callStatic('disk', Array)
+#5 [internal function]: Themes\\bayan\\theme_commands\\insertApiArticles->handle()
+#6 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#7 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#11 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Themes\\bayan\\theme_commands\\insertApiArticles), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /var/www/html/layout_migration/albayan_migration/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 

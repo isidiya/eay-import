@@ -1,0 +1,19 @@
+[2024-02-05 14:10:20] local.ERROR: Use of undefined constant PHP_EOl - assumed 'PHP_EOl' {"exception":"[object] (ErrorException(code: 0): Use of undefined constant PHP_EOl - assumed 'PHP_EOl' at /var/www/html/layout_migration/albayan_migration/Themes/bayan/theme_commands/updateApiArticles.php:67)
+[stacktrace]
+#0 /var/www/html/layout_migration/albayan_migration/Themes/bayan/theme_commands/updateApiArticles.php(67): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Use of undefine...', '/var/www/html/l...', 67, Array)
+#1 [internal function]: Themes\\bayan\\theme_commands\\updateApiArticles->handle()
+#2 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#3 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Container/Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#7 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Themes\\bayan\\theme_commands\\updateApiArticles), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /var/www/html/layout_migration/albayan_migration/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /var/www/html/layout_migration/albayan_migration/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /var/www/html/layout_migration/albayan_migration/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 

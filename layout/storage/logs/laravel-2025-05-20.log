@@ -1,0 +1,12 @@
+[2025-05-20 12:33:51] local.ERROR: syntax error, unexpected ';', expecting ')' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ')' at /var/www/html/emaratalyoum_migration/Themes/bayan/theme_commands/updateArticleImagePath.php:75)
+[stacktrace]
+#0 /var/www/html/emaratalyoum_migration/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/var/www/html/e...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Themes\\\\bayan\\\\th...')
+#2 [internal function]: spl_autoload_call('Themes\\\\bayan\\\\th...')
+#3 /var/www/html/emaratalyoum_migration/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(225): is_subclass_of('Themes\\\\bayan\\\\th...', 'Illuminate\\\\Cons...')
+#4 /var/www/html/emaratalyoum_migration/app/Console/Kernel.php(38): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#5 /var/www/html/emaratalyoum_migration/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): App\\Console\\Kernel->commands()
+#6 /var/www/html/emaratalyoum_migration/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /var/www/html/emaratalyoum_migration/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
